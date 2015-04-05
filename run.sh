@@ -1,4 +1,4 @@
-git add .
+git add -A
 git commit -m "update `date`"
 git push origin master
 

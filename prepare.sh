@@ -1,6 +1,6 @@
 branch_name='rails4'
-#echo $branch_name
-if [ `git branch --list $branch_name `]
+echo abc$branch_name
+if [ ! `git branch --list $branch_name `]
 then
-   echo "Branch name $branch_name already exists."
+   echo "Branch name $branch_name NOT already exists."
 fi
