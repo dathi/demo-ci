@@ -14,3 +14,4 @@ name_string: xuka
 
 production:
   name_string: doraemon
+  address_string: '192 Ham Tu'
